@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <style>
+     h1
+     {
+         text-align: center
+     }
+     p
+     {
+         text-align: justify
+     }
+     /* Remove the navbar's default margin-bottom and rounded borders */ 
+     .navbar {
+       margin-bottom: 0;
+       border-radius: 0;
+     }
+     
+     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+     .row.content {height: 450px}
+     
+     /* Set gray background color and 100% height */
+     .sidenav {
+       padding-top: 20px;
+       background-color: #f1f1f1;
+       height: 100%;
+     }
+     
+     /* Set black background color, white text and some padding */
+     footer {
+       background-color: #555;
+       color: white;
+       padding: 15px;
+     }
+     
+     /* On small screens, set height to 'auto' for sidenav and grid */
+     @media screen and (max-width: 767px) {
+       .sidenav {
+         height: auto;
+         padding: 15px;
+       }
+       .row.content {height:auto;} 
+     }
+   </style>
+        
+        <h1>Laboratorio 1</h1>
+        
+        <title>Laboratorio 1</title>
+        
+    </head>
+    
+    <body>
+    
+        <h3>¿Cuál es la diferencia entre Internet y la World Wide Web?</h3>
+        <p><strong>Internet</strong> es un conjunto de redes de comunicación que permiten que las computadoras se conecten a nivel global.</p>
+        <p><strong>World Wide Web</strong> es un Sistema de difusión de información ya sean documentos hipertexto o hipermedios mientras internet es el medio por el cual se distribuyen.</p>
+        
+        <h3>¿Cuál es el propósito de los métodos HTTP: GET, HEAD, POST, PUT, PATCH, DELETE?</h3>
+        <p><strong>GET:</strong> Se usa para recuperar o solicitar información de un servidor utilizando una dirección URL. Únicamente recuperan información y no la modifican.</p>
+        <p><strong>HEAD:</strong> Al igual que el método GET recibe información sin modificarla, pero solo transfiere el estado de la línea y la sección del header.</p>
+        <p><strong>POST:</strong> Se utiliza para enviar datos a un servidor sea información de cliente, subir un archivo entre otros, usando formas HTML.</p>
+        <p><strong>PUT:</strong> Remplaza o actualiza todas las representaciones actuales del servidor objetivo con el contenido subido.</p>
+        <p><strong>PATCH:</strong> Al igual que PUT este actualiza el contenido de la representación del servidor pero de manera parcial es decir agregando o retirando algunos contenidos.</p>
+        <p><strong>DELETE:</strong> Borra todas las representaciones actuales del servidor objetivo por usando una dirección URL.</p>
+        
+        <h3>¿Qué método HTTP se debe utilizar al enviar un formulario HTML, por ejemplo, cuando ingresas tu usuario y contraseña en algún sitio? ¿Por qué?</h3>
+        <p><strong>Método POST</strong></p>
+        
+        <h3>¿Qué método HTTP se utiliza cuando a través de un navegador web se accede a una página a través de un URL?</h3>
+        <p><strong>Método GET</strong></p>
+        
+        <h3>Un servidor web devuelve una respuesta HTTP con código 200. ¿Qué significa esto? ¿Ocurrió algún error?</h3>
+        <p>Pertenece al conjunto de códigos <strong>2XX</strong> los cuales representan “Peticiones Correctas”. El código <strong>200</strong> específicamente indica un “OK” la respuesta estándar para peticiones correctas.</p>
+        
+        <h3>¿Es responsabilidad del desarrollador corregir un sitio web si un usuario reporta que intentó acceder al sitio y se encontró con un error 404? ¿Por qué?</h3>
+        <p>Pertenece al conjunto de códigos <strong>4XX</strong> los cuales representan “Errores del Cliente”. El código <strong>404</strong> específicamente indica un “Not Found” el recurso solicitado no fue encontrado.</p>
+            
+        <p>No es responsabilidad del desarrollador corregir el sitio web debido a que la petición puede ser porque el recurso que se intenta buscar no existe y no un error de desarrollo.</p>
+        
+        <h3>¿Es responsabilidad del desarrollador corregir un sitio web si un usuario reporta que intentó acceder al sitio y se encontró con un error 500? ¿Por qué?</h3>
+        <p>Pertenece al conjunto de códigos <strong>5XX</strong> los cuales representan “Errores de Servidor”. El código <strong>500</strong> específicamente indica un “Internal Server Error” el servidor se encuentra en situaciones de error ajenas a la naturaleza del servidor web.</p>
+            
+        <p>Si es responsabilidad del desarrollador corregir el sitio web debido a que el servidor no está operando como debería lo cual imposibilita el acceso a su contenido.</p>
+        
+        <h3>¿Qué significa que un atributo HTML5 esté depreciado o desaprobado (deprecated)? Menciona algunos elementos de HTML 4 que en HTML5 estén desaprobados.</h3>
+        <p>Antiguas etiquetas y atributos de HTML son sucedidos por alternativas mas funcionales o flexibles por medio de HTML o CSS. Los navegadores actualmente soportan estas etiquetas, pero eventualmente se volverán obsoletos u de igual manera el soporte que se les da ya no será garantizado.</p>
+        
+        <p><strong>applet:</strong>Inserta applet</p>
+        <p><strong>basefont:</strong>Establece el estilo de la letra</p>
+        <p><strong>center:</strong>Centra elementos</p>
+        <p><strong>dir:</strong>Lista de directorios</p>
+        <p><strong>font:</strong>Agrega un campo de búsqueda </p>
+        <p><strong>isindex:</strong>Agrega un campo de búsqueda</p>
+        <p><strong>menu:</strong>Lista de menú</p>
+        <p><strong>u:</strong>Subraya</p>
+        
+        <h3>¿Cuáles son las diferencias principales entre HTML 4 y HTML5?</h3>
+        <p>Una sintaxis simplificada</p>
+        <p>Elementos multimedia</p>
+        <p>Acceso a la ubicación geográfica</p>
+        <p>Almacenamiento del lado del cliente</p>
+        <p>Comunicación del cliente con el servidor</p>
+        <p>Mecanismo JavaScript Roscado</p>
+        
+        <h3>¿Qué componentes de estructura y estilo tiene una tabla?</h3>
+        <p><strong>Table:</strong> Elemento para definir una tabla.</p>
+        <p><strong>Tr:</strong> Elemento para definir una fila de la tabla.</p>
+        <p><strong>Td:</strong> Elemento para definir datos de la tabla.</p>
+        <p><strong>Th:</strong> Elemento para definir la cabeza de una tabla.</p>
+        <p><strong>Caption:</strong> Elemento para definir el subtítulo de la tabla.</p>
+        <p><strong>Border:</strong> Propiedad que define un borde para la tabla.</p>
+        <p><strong>Border-Collapse:</strong> Propiedad para colapsar bordes de las celdas.</p>
+        <p><strong>Padding:</strong> Propiedad que añade relleno a las celdas.</p>
+        <p><strong>Text-Align:</strong> Propiedad para alinear el texto de las celdas.</p>
+        <p><strong>Border-Spacing:</strong> Propiedad para definir espaciado entre celdas.</p>
+        <p><strong>Colspan:</strong> Atributo que hace que las celdas midan varias columnas.</p>
+        <p><strong>Rowspan:</strong> Propiedad que hace que las celdas midan varias filas.</p>
+        <p><strong>Id:</strong> Atributo que define una tabla como única.</p>
+        
+        <h3>¿Cuáles son los principales controles de una forma HTML5?</h3>
+        <p><strong>Number:</strong> Crea un tipo especial de campo de entrada para la introducción de un número.</p>
+        <p><strong>Range:</strong> Crear un control deslizante que le permita elegir entre un rango de valores.</p>
+        <p><strong>Date:</strong> HTML5 tiene un número de campos de entrada diferentes para crear selectores complejos de fecha/hora.</p>
+        <p><strong>Color:</strong> Este campo de entrada muestra un selector de color.</p>
+        <p><strong>Search:</strong> Es un campo de entrada de texto con un estilo diferente.</p>
+        <p><strong>Datalist:</strong> Ahora se puede simplemente usar el atributo list para conectar un campo de entrada corriente a una lista de opciones.</p>
+        <p><strong>Tel/ Email / URL:</strong> Como sus nombres lo indican, estos nuevos campos de entrada se refieren a números de teléfono, direcciones de correo electrónico y URLs.
+        </p>
+        
+        <h3>¿Qué tanto soporte HTML5 tiene el navegador que utilizas? Puedes utilizar la siguiente página para descubrirlo: http://html5test.com/ (Al responder la pregunta recuerda poner el navegador que utilizas)</h3>
+        <p>Chrome Dev 68.0.3440.106 Tiene una calificación de 515 sobre 555 puntos. Siendo los puntos mas bajos Paymentes(0/5),  Security(21/32) y Peer to Peer(40/45).</p>
+        
+        <h3>¿Cuál es el ciclo de vida de los sistemas de información?</h3>
+        <p><strong>Instalación/Despliegue:</strong> En esta etapa es muy importante planificar el entorno de hardware y software necesario para que el sistema funcione, así como las posibles dependencias que puedan existir entre los componentes del sistema y sus diferentes versiones para evitar problemas de compatibilidad.</p>
+        <p><strong>Uso y Mantenimiento:</strong> Dentro de esta etapa, se incluye la eliminación de defectos, la adaptación a nuevas necesidades y añadir nuevas funcionalidades para mejorar el sistema ya existente. Muchas veces, esta etapa repite "en pequeño" todo el ciclo de desarrollo de un sistema, principalmente cuando es necesario agregar nuevas funcionalidades.
+        </p>
+        
+        <h3>¿Cuál es el ciclo de desarrollo de sistemas de información?</h3>
+        <p>Un ciclo de vida de un sistema de información está formado por 7 puntos:</p>
+        <p><strong>Planificación:</strong> Es todo lo que se hace antes de iniciar con el proyecto como, por ejemplo: determinar el ámbito de este, la viabilidad, los aspectos generales que debe incluir, estimación del coste, asignación de recursos, entre otros.</p>
+        <p><strong>Análisis:</strong> Definir qué es exactamente lo que tiene que hacer o tener el sistema, en este punto se llega a la comprehensión adecuada de los requerimientos del sistema.</p>
+        <p><strong>Diseños:</strong> En este punto se crean los modelos que representan las características del sistema que permitirán una implementación de manera efectiva. En otras palabras, es definir el cómo desarrollarlo.</p>
+        <p><strong>Implementación:</strong> En este punto es cuando se comienza a desarrollar (implementar) el proyecto. Este punto nunca debe de iniciarse si los puntos anteriores no han sido finalizados ya que es fundamental comprender al cien por ciento el problema para poder construir un sistema de calidad.</p>
+        <p><strong>Pruebas:</strong> En esta etapa se busca detectar errores que hayan surgido durante la implementación y resolverlos antes de que el producto final sea entregado.</p>
+        <p><strong>Instalación o Despliegue:</strong> Ahora es el momento de instalar o desplegar el sistema. Previamente se debe de definir el entorno en el que el sistema debe de funcionar, tanto hardware como software, equipos necesarios y configuración, componentes provistos por terceros, etc. Es muy importante tomar en cuenta todas las posibles dependencias con las que el sistema pueda contar.</p>
+        <p><strong>Uso y Mantenimiento:</strong> En este punto se incluye el eliminar defectos que se detecten durante el uso del sistema, adaptarlo a nuevas necesidades que se generen conforme pasa el tiempo y crear nuevas funcionalidades para mejorar el sistema ya existente.
+        </p>
+        
+        <h3>Investigacion</h3>
+        <p><strong>URL:</strong> Por sus siglas Uniform Resource Locator, es una secuencia de caracteres con el cual se designan recursos variables en el tiempo.</p>
+        <p><strong>MIME:</strong> Por sus siglas Multipurpose Internet Mail Extensions, es un conjunto de convenciones para el intercambio de archivos a través de internet. Entre estos archivos pueden ser texto, audio y video entre otros.</p>
+        <p><strong>Metodos HTTP:</strong> Son métodos de petición para indicar la acción que se desea realizar.</p>
+        <p><strong>Códigos de error HTTP:</strong> Son códigos que dan retroalimentación sobre el estatus del recurso que fue solicitado.</p>
+        <p><strong>XML:</strong> Por sus siglas eXtensible Markup Language, es un metalenguaje que nos permite definir lenguajes de marcado adecuados a usos determinados, un ejemplo es HTML.</p>
+        <p><strong>XHTML:</strong> Por sus siglas eXtensible HyperText Markup Language, es una combinación de las fortalezas de HTML y XML.</p>
+        <p><strong>HTML5:</strong>  Es la quinta versión del HyperText Markup Language el cual mejora la sintaxis al hacerla mas simplificada, elementos multimedia, localización geográfica, almacenamiento del lado del cliente y comunicación del cliente con el servidor.</p>
+        <p><strong>JS:</strong> Javascript es un lenguaje de programación para HTML y Web.
+        <p><strong>PHP:</strong> PHP Hypertext Preprocessor es un lenguaje basado en scripts para servidores y una herramienta eficaz para hacer páginas webs dinámicas e interactivas.</p>
+        <p><strong>JSP:</strong> JavaServer Pages es una tecnología que ayuda a desarrollar software de paginas web dinámicas basadas en HTML y XML.</p>
+        <p><strong>AJAX:</strong> Asynchronous JavaScript And XML es una técnica de desarrollo web para crear aplicaciones interactivas.</p>
+        
+    
+    </body>
+    
+    <footer>
+    
+    </footer>
+    
+</html>
